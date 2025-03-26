@@ -1,0 +1,6 @@
+@ProjetoDBZ_HostAddress = http://localhost:5002
+
+GET {{ProjetoDBZ_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
