@@ -15,7 +15,7 @@ namespace ProjetoDBZ.Migrations
                 .Annotation("MySql:CharSet", "utf8mb4");
 
             migrationBuilder.CreateTable(
-                name: "dbzDB",
+                name: "Personagens",
                 columns: table => new
                 {
                     Id = table.Column<int>(type: "int", nullable: false)
@@ -27,7 +27,7 @@ namespace ProjetoDBZ.Migrations
                 },
                 constraints: table =>
                 {
-                    table.PrimaryKey("PK_dbzDB", x => x.Id);
+                    table.PrimaryKey("PK_Personagens", x => x.Id);
                 })
                 .Annotation("MySql:CharSet", "utf8mb4");
         }
@@ -36,7 +36,7 @@ namespace ProjetoDBZ.Migrations
         protected override void Down(MigrationBuilder migrationBuilder)
         {
             migrationBuilder.DropTable(
-                name: "dbzDB");
+                name: "Personagens");
         }
     }
 }

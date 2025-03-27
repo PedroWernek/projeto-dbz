@@ -10,7 +10,7 @@ using ProjetoDBZ.Models;
 namespace ProjetoDBZ.Migrations
 {
     [DbContext(typeof(AppDbContext))]
-    [Migration("20250326233101_InitialCreate")]
+    [Migration("20250327000054_InitialCreate")]
     partial class InitialCreate
     {
         /// <inheritdoc />
@@ -35,7 +35,7 @@ namespace ProjetoDBZ.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("dbzDB");
+                    b.ToTable("Personagens");
                 });
 #pragma warning restore 612, 618
         }

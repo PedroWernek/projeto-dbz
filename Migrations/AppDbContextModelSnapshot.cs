@@ -32,7 +32,7 @@ namespace ProjetoDBZ.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("dbzDB");
+                    b.ToTable("Personagens");
                 });
 #pragma warning restore 612, 618
         }
